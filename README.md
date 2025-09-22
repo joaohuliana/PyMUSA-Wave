@@ -1,4 +1,5 @@
->>>Working on Python version 3.12.3<<<
+        Working on Python version 3.12.3
+
 MUSA-WAVE: Ultrasound Data Processing Platform
 
 Description:
