@@ -1,6 +1,6 @@
-        Working on Python version 3.12.3
+# Attention: Working on Python version 3.12.3
 
-MUSA-WAVE: Ultrasound Data Processing Platform
+# MUSA-WAVE: Ultrasound Data Processing Platform
 
 Description:
 A software platform for processing ultrasound data, specifically designed for Acoustic Radiation Force Imaging (ARFI)
@@ -13,7 +13,7 @@ MUSA-WAVE: A Software Platform for Magnetomotive Ultrasound and Shear Wave Analy
 2024 IEEE UFFC Latin America Ultrasonics Symposium (LAUS) Proceedings, 7–10. https://doi.org/10.1109/LAUS60931.2024.10553040
 
 
-How to Install
+# How to Install
 
 1.    Install Python 3.12.3 from https://www.python.org/ftp/python/3.12.3/python-3.12.3-amd64.exe.
 
@@ -32,7 +32,7 @@ How to Install
 8.    Run the pyvma_ppg_white.py file.
 
 
-How to Use (Example File)
+# How to Use (Example File)
 
 1.    Download an example file from https://drive.google.com/drive/folders/14WjUnAMyzCzxjlcRgJcm4UGMGeQRocKI.
 
@@ -68,24 +68,24 @@ How to Use (Example File)
 
 
 
-How to Use (Your Own File)
+# How to Use (Your Own File)
 
 To use your own data, generate a compatible .mat file containing ONLY a 3D matrix of RF data structured as (Z, X, Frames), where:
 
-    Z is the axial dimension.
+Z is the axial dimension.
 
-    X is the lateral dimension.
+X is the lateral dimension.
 
-    Frames is the temporal dimension.
+Frames is the temporal dimension.
 
-    Note: If the number of frames is less than 3, the file will open as RF data, but displacement calculation will fail.
+Note: If the number of frames is less than 3, the file will open as RF data, but displacement calculation will fail.
 
 The US parameters must match your file's settings: Sampling Frequency, dx, Central Frequency, Speed of Sound, and Frame Rate.
 
 To change the default US parameter values:
 
-    Type designer in the terminal.
+Type designer in the terminal.
 
-    Open the ./gui/pyvma_ppg_white.ui file.
+Open the ./gui/pyvma_ppg_white.ui file.
 
-    Edit the values as needed.
+Edit the values as needed.
