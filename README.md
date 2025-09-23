@@ -1,6 +1,6 @@
 # Attention: Working on Python version 3.12.3
 
-# MUSA-WAVE: Ultrasound Data Processing Platform
+# pyMUSA-WAVE: Ultrasound Data Processing Platform
 
 Description:
 A software platform for processing ultrasound data, specifically designed for Acoustic Radiation Force Imaging (ARFI)
